@@ -58,25 +58,25 @@ main{
     margin-top: 100px;
 }
 
-/*intro*/
-/* #intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-} */
+
+
+.i-text{
+    text-align: center;
+    margin-left: 15%;
+}
 
 #name{
-    padding-left: 39%;
-    text-align: left;
+    /* padding-left: 39%; */
+    text-align: center;
 }
 
 #intro img{
     float: right;
+    padding-left: 10px;
 }
 
 /*fixing list styling */
-ul {
+/* ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -89,6 +89,7 @@ ul li {
     position: relative;
     padding-left: 20px;
     text-align: center;
+    font-size: 25px;
 }
 
 ul li::before {
@@ -97,8 +98,10 @@ ul li::before {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-}
+} */
 
 #projects {
     margin-top: 150px;
 }
+
+/* add media query for tablet size*/
