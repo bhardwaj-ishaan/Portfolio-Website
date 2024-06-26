@@ -75,33 +75,32 @@ main{
     padding-left: 10px;
 }
 
-/*fixing list styling */
-/* ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-ul li {
-    position: relative;
-    padding-left: 20px;
-    text-align: center;
-    font-size: 25px;
-}
-
-ul li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-} */
 
 #projects {
     margin-top: 150px;
+}
+
+#projects article{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#project-text{
+    padding-bottom: 15px;
+}
+
+.name h3{
+    padding: 0.07rem;
+    border: 1px solid #00c7c6;
+}
+
+.description {
+    border: 1px solid #00c7c6;
+}
+
+.description p{
+    margin: 0.07rem;
+    padding: 0.07rem;
 }
 
 /* add media query for tablet size*/
