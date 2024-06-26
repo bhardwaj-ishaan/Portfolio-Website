@@ -104,3 +104,15 @@ main{
 }
 
 /* add media query for tablet size*/
+@media only screen and (min-width: 250px) and (max-width: 1000px) {
+    #me-pic{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 1520px){
+    #projects article{
+        margin-top: 20px;
+    }
+}
